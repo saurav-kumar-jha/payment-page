@@ -1,0 +1,82 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.container{
+    height:500px;
+    width: 400px;
+    background-color: rgb(121, 150, 175);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.enter{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid white; */
+}
+.enter input{
+    background-color: transparent;
+    border: none;
+    text-decoration:wavy;
+    font-size: 32px;
+    height: 50px;
+    width: 200px;
+    color: white;
+}
+/* .enter input::-webkit-input-placeholder{
+    border: none;
+} */
+::placeholder{
+    color: rgb(7, 49, 163);
+}
+.enter input:focus{
+    outline: none;
+}
+.no{
+    height: 300px;
+    width: 100%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* gap:50px; */
+}
+.num{
+    display: flex;
+    gap:10px;
+}
+.number{
+    height: 70px;
+    width: 80px;
+    font-size: 29px;
+    margin-left: 40px;
+    /* margin-bottom: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.number:hover{
+    background-color: rgb(81, 109, 134);
+}
+.pay{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.pay button{
+    height: 60px;
+    width: 110px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 33px;
+    font-weight: 300;
+    background-color: rgb(78, 78, 151);
+    cursor: pointer;
+}
